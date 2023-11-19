@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.34d2e0dc.css",
+    "main.js": "/homepage/static/js/main.67fbb5d3.js",
+    "static/media/pexels-lisa-fotios-2935956.jpg": "/homepage/static/media/pexels-lisa-fotios-2935956.bc34ed6922cae0062f31.jpg",
+    "static/media/pexels-eberhard-grossgasteiger-2310641.jpg": "/homepage/static/media/pexels-eberhard-grossgasteiger-2310641.c5b1e565241eb88695be.jpg",
+    "static/media/pexels-simon-berger-1323550.jpg": "/homepage/static/media/pexels-simon-berger-1323550.39bc9b223228a61516c8.jpg",
+    "static/media/pexels-aron-visuals-1743165.jpg": "/homepage/static/media/pexels-aron-visuals-1743165.71523d21d9a2ea6e8cfa.jpg",
+    "static/media/pexels-eberhard-grossgasteiger-1366919.jpg": "/homepage/static/media/pexels-eberhard-grossgasteiger-1366919.1b0742abe3e5a29b7451.jpg",
+    "static/media/pexels-tobi-675764.jpg": "/homepage/static/media/pexels-tobi-675764.a14ebb351ad694e24603.jpg",
+    "static/media/pexels-pixabay-147411.jpg": "/homepage/static/media/pexels-pixabay-147411.d252f2928a5baec5ab81.jpg",
+    "index.html": "/homepage/index.html",
+    "main.34d2e0dc.css.map": "/homepage/static/css/main.34d2e0dc.css.map",
+    "main.67fbb5d3.js.map": "/homepage/static/js/main.67fbb5d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d2e0dc.css",
+    "static/js/main.67fbb5d3.js"
+  ]
+}
