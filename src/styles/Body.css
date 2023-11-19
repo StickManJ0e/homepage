@@ -1,0 +1,121 @@
+#body {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+}
+
+#body>h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2.5rem
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0;
+}
+
+.project-overlay>.heading>.links {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 20px;
+}
+
+.project>img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.project-overlay {
+    background: black;
+    opacity: 0.5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-overlay>.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.project-overlay>.description {
+    text-align: start;
+    padding: 0 1rem 2rem 1rem;
+}
+
+@media (hover: hover) {
+
+    .project {
+        margin-bottom: 10rem;
+    }
+
+    .project:hover .project-overlay,
+    .project:focus .project-overlay {
+        transform: translate3d(0, 0, 0);
+        position: absolute;
+        height: 100%;
+    }
+
+    .project:hover .project-overlay>.heading {
+        transform: translate3d(0, 0, 0);
+    }
+
+    .project:hover .project-overlay>.description {
+        opacity: 1;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .project-overlay {
+        position: absolute;
+        bottom: 0;
+        transition: transform 300ms;
+        transform: translate3d(0, 100%, 0);
+        height: auto;
+    }
+
+    .project-overlay>.heading {
+        transition: transform 300ms;
+        transform: translate3d(0, 0, 0);
+        font-size: 2vh;
+    }
+
+    .project-overlay>.description {
+        opacity: 0;
+        transition: opacity 500ms 100ms;
+        height: 0;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .project {
+        flex-basis: 33%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        flex-basis: 50%;
+    }
+
+    .project>img {
+        height: 40vw;
+    }
+}
